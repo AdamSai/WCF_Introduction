@@ -89,5 +89,5 @@ We're through!
 5. Tick the `Windows Communication Foundation feature`
 6. Click modify and let it install
 ![](https://i.imgur.com/nLX5C8d.png)
-You should now be able to create WCF applications.
-[Back to top](Setting_up_the_server)
+You should now be able to create WCF applications.  
+[Back to top](#Setting_up_the_server)
