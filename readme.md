@@ -1,7 +1,7 @@
 # Setting up SOAP with .NET WCF
 
 ## Setting up the server
-1. Create a new project in Visual Studio 2019 and select the WCF Service Application template. If you do not have this follow this guide to quickly install it: [Installing WCF Templates](#installing_wcf_templates)  
+1. Create a new project in Visual Studio 2019 and select the WCF Service Application template. If you do not have this follow this guide to quickly install it: [Installing WCF Templates](#installing-wcf-templates)  
 ![](https://i.imgur.com/Dhkhg5Q.png)
 2. Inside the `IService1.cs` interface, add a new method called `Add`  
 ``` cs
