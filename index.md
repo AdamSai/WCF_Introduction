@@ -4,7 +4,7 @@
 1. Create a new project in Visual Studio 2019 and select the WCF Service Application template. If you do not have this follow this guide to quickly install it: LINK  
 ![](https://i.imgur.com/Dhkhg5Q.png)
 2. Inside the `IService1.cs` interface, add a new method called `Add`  
-```cs
+``` cs
     [ServiceContract]
     public interface IService1
     {
@@ -21,7 +21,7 @@
 
 ```  
 3. Inside the `Service1.svc` file, implement the new method.  
-```cs
+``` cs
     public class Service1 : IService1
     {
         public int Add(int a, int b)
@@ -70,7 +70,7 @@ If you are running the server, open up a new Visual Studio 2019 process.
 ![](https://i.imgur.com/nLAMflr.png)
 9. Press Finish
 10. In the `Program.cs`, add the following code to the main method to call the SOAP method from the server:  
-```cs
+``` cs
             var client = new Service1Client();
             var a = 2;
             var b = 2;
