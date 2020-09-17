@@ -4,7 +4,7 @@
 1. Create a new project in Visual Studio 2019 and select the WCF Service Application template. If you do not have this follow this guide to quickly install it: LINK  
 ![](https://i.imgur.com/Dhkhg5Q.png)
 2. Inside the `IService1.cs` interface, add a new method called `Add`  
-```csharp
+```cs
     [ServiceContract]
     public interface IService1
     {
@@ -19,9 +19,9 @@
         int Add(int a, int b);
     }
 
-```
+```  
 3. Inside the `Service1.svc` file, implement the new method.  
-```csharp
+```cs
     public class Service1 : IService1
     {
         public int Add(int a, int b)
@@ -70,7 +70,7 @@ If you are running the server, open up a new Visual Studio 2019 process.
 ![](https://i.imgur.com/nLAMflr.png)
 9. Press Finish
 10. In the `Program.cs`, add the following code to the main method to call the SOAP method from the server:  
-```csharp=
+```cs
             var client = new Service1Client();
             var a = 2;
             var b = 2;
@@ -90,4 +90,4 @@ We're through!
 6. Click modify and let it install
 ![](https://i.imgur.com/nLX5C8d.png)
 You should now be able to create WCF applications.  
-[Back to top](#Setting_up_the_server)
+[Back to top](#Setting-up-the-server)
