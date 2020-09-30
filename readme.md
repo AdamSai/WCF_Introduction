@@ -20,7 +20,7 @@
     }
 
 ```  
-3. Inside the `Service1.svc` file, implement the new method.  
+3. Inside the `Service1.cs` file, implement the new method.  
 ``` cs
     public class Service1 : IService1
     {
